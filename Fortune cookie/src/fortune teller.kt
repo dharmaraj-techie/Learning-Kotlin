@@ -1,10 +1,16 @@
+import java.lang.Math.random
+
 fun main(args : Array<String>) {
-    var fortune: String
-    for (i in 1..10) {
-        fortune = getFortune(getBirthday())
-        println("\nYour fortune is: $fortune")
-        if (fortune.contains("Take it easy")) break;
-    }
+//    var fortune: String
+//    repeat(10) {
+//        fortune = getFortune(getBirthday())
+//        println("\nYour fortune is: $fortune")
+//        if (fortune.contains("Take it easy")) return;
+//    }
+    val random1 = random()
+    val random2 = {random()}
+    println(random1)
+    println(random2)
 }
 
 fun getFortune(birthday : Int) : String {

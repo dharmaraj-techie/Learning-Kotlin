@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a2f84c6-fd3f-4ace-abcf-5f8790eb4ff8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/activtySuggestion.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Fortune cookie/Fortune_tellerKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fortune cookie/Fortune_tellerKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Fortune cookie/META-INF/Fortune cookie.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fortune cookie/META-INF/Fortune cookie.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/activtySuggestion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/activtySuggestion.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fortune teller.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/fortune teller.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,25 +90,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="722" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1585901734104" />
-    <state width="724" height="203" key="GridCell.Tab.0.bottom" timestamp="1586019103025">
+    <state width="738" height="198" key="GridCell.Tab.0.bottom" timestamp="1586489168982">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586019103025" />
-    <state width="724" height="203" key="GridCell.Tab.0.center" timestamp="1586019103025">
+    <state width="738" height="198" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586489168982" />
+    <state width="738" height="198" key="GridCell.Tab.0.center" timestamp="1586489168982">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586019103025" />
-    <state width="724" height="203" key="GridCell.Tab.0.left" timestamp="1586019103025">
+    <state width="738" height="198" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586489168982" />
+    <state width="738" height="198" key="GridCell.Tab.0.left" timestamp="1586489168982">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586019103025" />
-    <state width="724" height="203" key="GridCell.Tab.0.right" timestamp="1586019103025">
+    <state width="738" height="198" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586489168982" />
+    <state width="738" height="198" key="GridCell.Tab.0.right" timestamp="1586489168982">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586019103025" />
-    <state x="848" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1586229553832">
+    <state width="738" height="198" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586489168982" />
+    <state x="848" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1586488020225">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="848" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586229553832" />
+    <state x="848" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586488020225" />
   </component>
 </project>
