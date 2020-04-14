@@ -7,7 +7,7 @@ class SimpleSpice(){
     val heat: Int
         get() {return 5 }
 }
-class Spice(val name: String, var spiciness: String = "mild"){
+abstract class Spice(val name: String, var spiciness: String = "mild"){
     val heat: Int
         get() {
             return when(spiciness){
@@ -19,6 +19,10 @@ class Spice(val name: String, var spiciness: String = "mild"){
     init {
         println("new spice $name with spiciness level of $heat has been created ")
     }
+}
+
+class Curry(name: String, spiciness: String = "mild"): Spice(name, spiciness) {
+
 }
 fun makeSalt() = Spice("salt", "mild")
 
