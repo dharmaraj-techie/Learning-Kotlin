@@ -1,29 +1,57 @@
 package spices
 
 
-class SimpleSpice(){
-    val name = "curry"
-    val spiciness = "mild"
-    val heat: Int
-        get() {return 5 }
-}
 abstract class Spice(val name: String, var spiciness: String = "mild"){
     val heat: Int
         get() {
-            return when(spiciness){
+            return when (spiciness) {
                 "mild" -> 5
                 "hot" -> 10
                 else -> 0
             }
         }
+
+    abstract fun prepareSpice()
+
     init {
         println("new spice $name with spiciness level of $heat has been created ")
     }
 }
 
-class Curry(name: String, spiciness: String = "mild"): Spice(name, spiciness) {
+interface Grinder {
+    fun grind()
+    fun test() {
+        println("test")
+    }
+}
+
+interface SpiceColor{
+    val color: String
+}
+
+object YellowSpiceColor: SpiceColor{
+    override val color: String
+        get() = "yellow"
 
 }
-fun makeSalt() = Spice("salt", "mild")
+
+
+class Curry(name: String, spiciness: String, spiceColor: SpiceColor = YellowSpiceColor)
+    : Spice(name, spiciness), Grinder{
+    override fun grind() {
+        TODO("Not yet implemented")
+    }
+
+    override fun prepareSpice() {
+        TODO("Not yet implemented")
+    }
+
+    override fun test() {
+        println("function from curry")
+    }
+
+}
+
+
 
 
